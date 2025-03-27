@@ -146,7 +146,7 @@ private fun busca() {
     val busca = readln()
     listaConvidados.forEach { convidado ->
         //O contains busca por uma string dentro de outra string
-        if (convidado.nome.contains(busca)){
+        if (validar()){
             println("Posicação:  $i, Nome: ${convidado.nome}")
         }
         i++
